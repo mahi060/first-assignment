@@ -1,3 +1,59 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+
+}
+h1{
+    font-size: 60px;
+    color: dimgray;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: darkgray;
+}
+p{
+    color:dimgray;
+    font-size: 20px;
+}
+.section-1-2{
+    display: flex;
+
+}
+.section-1{
+    padding:30px;
+    margin-top: 10px;
+    margin-bottom:60px;
+
+}
+.div-1{
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.div-2{
+     margin-left:100px;
+     padding-left: 10px;
+}
+
+.half-width{
+    width:50%;
+}
+.anchor-button{
+    text-decoration: none;
+    border-radius: 50px;
+    background: linear-gradient(orange,red);
+    padding:15px 30px;
+}
+span{
+    color: orange;
+}
+.section-2{
+    background-image: url("images/photo2.png");
+    background-repeat: no-repeat;
+    padding:50px;
+    margin-bottom: 50px;
+    
+}
+.div-4{
+    padding-right: 50px;
 }
