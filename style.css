@@ -10,7 +10,11 @@ h1{
 h2{
     font-size: 30px;
     font-weight: 700;
-    color: darkgray;
+    color: lightslategray;
+}
+h3{
+    font-size: 20px;
+    
 }
 p{
     color:dimgray;
@@ -45,7 +49,7 @@ p{
     padding:15px 30px;
 }
 span{
-    color: orange;
+    color: salmon;
 }
 .section-2{
     background-image: url("images/photo2.png");
@@ -56,4 +60,61 @@ span{
 }
 .div-4{
     padding-right: 50px;
+}
+
+.div-5{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-3{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.div-6{
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.div-7{
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.div-8{
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.div-6 img{
+    display: flex;
+    width:50%;
+    border-radius: 30px;
+}
+.div-7 img{
+    width:100%;
+}
+.div-8 img{
+    width:100%;
+}
+.one-third{
+    width:33.33%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 40px;
+}
+footer p{
+    font-size: 15px;
+    color: white;
 }
